@@ -8,19 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		163DEC4D225E44A8001D8747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163DEC4C225E44A8001D8747 /* AppDelegate.swift */; };
-		163DEC4F225E44A8001D8747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163DEC4E225E44A8001D8747 /* ViewController.swift */; };
+		163DEC4F225E44A8001D8747 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163DEC4E225E44A8001D8747 /* RootViewController.swift */; };
 		163DEC51225E44A9001D8747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163DEC50225E44A9001D8747 /* Assets.xcassets */; };
 		163DEC54225E44A9001D8747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163DEC52225E44A9001D8747 /* Main.storyboard */; };
+		163DEC5F225E45EF001D8747 /* WikipediaScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163DEC5E225E45EF001D8747 /* WikipediaScraper.swift */; };
+		99B8C9745BD8656556936EF1 /* Pods_WikipediaFlightScraper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB985C7CD82858F5901DCC8 /* Pods_WikipediaFlightScraper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		163DEC49225E44A8001D8747 /* WikipediaFlightScraper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikipediaFlightScraper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163DEC4C225E44A8001D8747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		163DEC4E225E44A8001D8747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		163DEC4E225E44A8001D8747 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		163DEC50225E44A9001D8747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163DEC53225E44A9001D8747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		163DEC55225E44A9001D8747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163DEC56225E44A9001D8747 /* WikipediaFlightScraper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WikipediaFlightScraper.entitlements; sourceTree = "<group>"; };
+		163DEC5E225E45EF001D8747 /* WikipediaScraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaScraper.swift; sourceTree = "<group>"; };
+		1CB985C7CD82858F5901DCC8 /* Pods_WikipediaFlightScraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikipediaFlightScraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34F276F90F82C3BB6FCFA94 /* Pods-WikipediaFlightScraper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikipediaFlightScraper.debug.xcconfig"; path = "Target Support Files/Pods-WikipediaFlightScraper/Pods-WikipediaFlightScraper.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CCBE4A7C3D65BFFF097D8C /* Pods-WikipediaFlightScraper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikipediaFlightScraper.release.xcconfig"; path = "Target Support Files/Pods-WikipediaFlightScraper/Pods-WikipediaFlightScraper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B8C9745BD8656556936EF1 /* Pods_WikipediaFlightScraper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +46,8 @@
 			children = (
 				163DEC4B225E44A8001D8747 /* WikipediaFlightScraper */,
 				163DEC4A225E44A8001D8747 /* Products */,
+				DADB0F3BEEB0373A121401C8 /* Pods */,
+				E37B1776017D2F76B72AE210 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,13 +63,32 @@
 			isa = PBXGroup;
 			children = (
 				163DEC4C225E44A8001D8747 /* AppDelegate.swift */,
-				163DEC4E225E44A8001D8747 /* ViewController.swift */,
+				163DEC4E225E44A8001D8747 /* RootViewController.swift */,
+				163DEC5E225E45EF001D8747 /* WikipediaScraper.swift */,
 				163DEC50225E44A9001D8747 /* Assets.xcassets */,
 				163DEC52225E44A9001D8747 /* Main.storyboard */,
 				163DEC55225E44A9001D8747 /* Info.plist */,
 				163DEC56225E44A9001D8747 /* WikipediaFlightScraper.entitlements */,
 			);
 			path = WikipediaFlightScraper;
+			sourceTree = "<group>";
+		};
+		DADB0F3BEEB0373A121401C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D34F276F90F82C3BB6FCFA94 /* Pods-WikipediaFlightScraper.debug.xcconfig */,
+				F6CCBE4A7C3D65BFFF097D8C /* Pods-WikipediaFlightScraper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E37B1776017D2F76B72AE210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB985C7CD82858F5901DCC8 /* Pods_WikipediaFlightScraper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 163DEC59225E44A9001D8747 /* Build configuration list for PBXNativeTarget "WikipediaFlightScraper" */;
 			buildPhases = (
+				E4916E7F3F119F9FC12893EE /* [CP] Check Pods Manifest.lock */,
 				163DEC45225E44A8001D8747 /* Sources */,
 				163DEC46225E44A8001D8747 /* Frameworks */,
 				163DEC47225E44A8001D8747 /* Resources */,
+				239846073302136ED9D7EF50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,6 +125,11 @@
 				TargetAttributes = {
 					163DEC48225E44A8001D8747 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,12 +163,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		239846073302136ED9D7EF50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WikipediaFlightScraper/Pods-WikipediaFlightScraper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WikipediaFlightScraper/Pods-WikipediaFlightScraper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4916E7F3F119F9FC12893EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WikipediaFlightScraper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		163DEC45225E44A8001D8747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163DEC4F225E44A8001D8747 /* ViewController.swift in Sources */,
+				163DEC4F225E44A8001D8747 /* RootViewController.swift in Sources */,
+				163DEC5F225E45EF001D8747 /* WikipediaScraper.swift in Sources */,
 				163DEC4D225E44A8001D8747 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +352,7 @@
 		};
 		163DEC5A225E44A9001D8747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34F276F90F82C3BB6FCFA94 /* Pods-WikipediaFlightScraper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WikipediaFlightScraper/WikipediaFlightScraper.entitlements;
@@ -288,6 +372,7 @@
 		};
 		163DEC5B225E44A9001D8747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CCBE4A7C3D65BFFF097D8C /* Pods-WikipediaFlightScraper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WikipediaFlightScraper/WikipediaFlightScraper.entitlements;
